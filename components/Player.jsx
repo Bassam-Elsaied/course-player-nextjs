@@ -12,7 +12,7 @@ export default function Player({ isWideMode, setIsWideMode }) {
   const containerRef = useRef(null);
   const ytPlayerRef = useRef(null);
 
-  const videoId = "I1V9YWqRIeI";
+  const videoId = "8LwodvRgyLE";
 
   const onPlayerStateChange = (event) => {
     if (event.data === 1) {
